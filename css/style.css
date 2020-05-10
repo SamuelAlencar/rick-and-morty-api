@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{margin:0; padding:0; font-family: 'Quicksand', sans-serif; background-color: #939393;}
+figure{margin:0;padding: 0;}
+header{
+    display:block;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header h1{
+    text-align: center;
+    color:#fff;
+    line-height: 1;
+    font-size: 4em;
+    background-color: black;
+    margin: 30px auto 0;
+    padding:15px ;
+    letter-spacing: 15px;
+}
+header h2{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+    font-size: 3em;
+    background-color: black;
+    color: rgb(255, 152, 0);
+    padding:15px;
+    letter-spacing: 10px;
+}
+header h3{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+    font-size: 2em;
+    background-color: black;
+    color:#fff;
+    padding:15px ;
+}
+.seachContainer{
+    margin: 30px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.seachContainer label{
+    height: 30px;
+}
+.seachContainer input{
+    height: 30px;
+    width: 300px;   
+}
+main{
+    display: block;
+    max-width: 1420px;
+    margin: 20px auto;
+    background: rgb(32, 35, 41);
+}
+#cards-personagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#cards-personagens article.card{
+    display: flex;
+    width: 300px;
+    margin: 15px;
+    background-color: #939393;
+    border-radius: 7px;
+    border: solid 1px #393939;
+    -webkit-box-shadow: 3px 6px 5px -2px rgb(10, 10, 10);
+    -moz-box-shadow: 3px 6px 5px -2px rgb(10, 10, 10);
+    box-shadow: 3px 6px 5px -2px rgb(10, 10, 10);   
+    overflow: hidden;
+}
+
+#cards-personagens article.card .infos-persona{
+    background-color: #fff;
+}
+
+#cards-personagens article.card .infos-persona{
+    max-width: 300px;
+    background: rgb(51, 51, 51);    
+}
+#cards-personagens article.card .infos-persona .infos-txt{
+    padding: 1.25rem;
+}
+#cards-personagens article.card .infos-persona .infos-txt h3{
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(158, 158, 158);
+
+
+}
+#cards-personagens article.card .infos-persona .infos-txt p{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #393939;
+    line-height: 1;
+    color: rgb(158, 158, 158);
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+#cards-personagens article.card .infos-persona .infos-txt p span{
+    font-size: 13px;
+    text-transform: none;
+
+    text-align: right;
+    color: rgb(255, 152, 0);
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    display: none;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
